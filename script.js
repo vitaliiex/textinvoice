@@ -17,7 +17,8 @@ async function processText() {
       });
   
       if (!response.ok) {
-        throw new Error('error');
+        throw new Error('        throw new Error('Ошибка при синтезе речи');
+');
       }
   
       const audioBlob = await response.blob();
